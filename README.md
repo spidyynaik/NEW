@@ -3,7 +3,7 @@
 
 </p>
 <h1 align="center">
-  <b>Auto-Filter-V5</b>
+  <b>Auto-Filter</b>
 </h1>
 
 <b># Admin Commands
@@ -49,7 +49,7 @@
 
 - [x] /delg - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ
 
-## TG Bot [@CyniteBackup](t.me/CyniteBackup)
+## TG Bot [Mr.SPIDY](t.me/Mr_SpidyBot)
 
 ## Credits 
 
