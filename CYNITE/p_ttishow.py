@@ -13,7 +13,7 @@ from utils import get_size, temp, get_settings
 from Script import script
 from pyrogram.errors import ChatAdminRequired
 
-"""-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
+"""-----------------------------------------https://t.me/YourDemandZone/63 --------------------------------------"""
 BOT_START_TIME = time.time()
 
 @Client.on_message(filters.new_chat_members & filters.group)
@@ -56,7 +56,7 @@ async def save_group(bot, message):
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton("ɢʀᴏᴜᴘ📌", url="https://t.me/cynitesupport")
+                InlineKeyboardButton("ɢʀᴏᴜᴘ📌", url="https://t.me/+sAP8NkJ7xR4xNzI1")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
@@ -64,7 +64,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(
-                photo="https://telegra.ph/file/5c586e00f34665267ab5b.jpg",
+                photo="https://te.legra.ph/file/ef3ee222608e825611e1a.jpg",
                 caption=f"<b>🔖 ʜᴇʟʟᴏ ᴍʏ ғʀɪᴇɴᴅ {u.mention},</b>\n<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {message.chat.title} !</b>\n\n<b>ʀᴇᴀᴅ ɢʀᴏᴜᴘ ʀᴜʟᴇs ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ...</b>",
                 reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(60)
