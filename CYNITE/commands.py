@@ -22,7 +22,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('♥️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ♥️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/YourDemandZone'),
                     InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/+sAP8NkJ7xR4xNzI1')
@@ -48,7 +48,7 @@ async def start(client, message):
                     InlineKeyboardButton('♥️ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ♥️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('☢ʜᴇʟᴘ☢', callback_data='help'),
-                    InlineKeyboardButton('◇ᴀʙᴏᴜᴛ◇', callback_data='about'),
+                    InlineKeyboardButton('✡ᴀʙᴏᴜᴛ✡', callback_data='about'),
                   ],[
                     InlineKeyboardButton('🔰ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔰', url="https://t.me/YourDemandZone")
                   ]]
