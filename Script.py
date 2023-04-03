@@ -11,7 +11,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Mr_SPIDY>☢ 𝐌𝐫.𝐒𝐏𝐈𝐃𝐘 ☢</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Mr_SPIDY>☠ 𝐌𝐫.𝐒𝐏𝐈𝐃𝐘 ☠</a></b>
 
 <b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/YourDemandZone>YourDemandZone💠 </a></b>
 
