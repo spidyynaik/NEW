@@ -720,7 +720,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             cnlbtn = [[
                       InlineKeyboardButton('⍟ᴄʜᴀɴɴᴇʟ⍟', url='t.me/Yourdemandzone')
                      ], [
-                      InlineKeyboardButton('❅sᴜᴘᴘᴏʀᴛ❅', url='t.me/+RH4vh0xmrFJjOTc9'),
+                      InlineKeyboardButton('❁ꜱᴇʀɪᴇꜱ❁', url='t.me/+RH4vh0xmrFJjOTc9'),
                       InlineKeyboardButton('✵ᴜᴘᴅᴀᴛᴇs✵', url='t.me/Yourdemandzone')
                      ], [
                       InlineKeyboardButton("⇋Bᴀᴄᴋ", callback_data="start")
@@ -945,7 +945,7 @@ async def auto_filter(client, msg, spoll=False):
                 [
                     InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfo'),
                     InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
-                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo')
+                    InlineKeyboardButton(f'❁ꜱᴇʀɪᴇꜱ❁', 'sinfo')
                 ]
             )
 
@@ -953,7 +953,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
-                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo'),
+                    InlineKeyboardButton(f'❁ꜱᴇʀɪᴇꜱ❁', 'sinfo'),
                     InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfoo')
                 ]
             )
@@ -967,7 +967,7 @@ async def auto_filter(client, msg, spoll=False):
                 [
                     InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfo'),
                     InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
-                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo')
+                    InlineKeyboardButton(f'❁ꜱᴇʀɪᴇꜱ❁', 'sinfo')
                 ]
             )
 
@@ -975,7 +975,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
-                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo'),
+                    InlineKeyboardButton(f'❁ꜱᴇʀɪᴇꜱ❁', 'sinfo'),
                     InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfoo')
                 ]
             )
