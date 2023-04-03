@@ -107,18 +107,18 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfo'),
+                    InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
+                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
+                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo'),
+                    InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfoo')
                 ]
             )
                 
@@ -129,18 +129,18 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                    InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfo'),
+                    InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
+                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
-                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfoo')
+                    InlineKeyboardButton(f'✽ᴍᴏᴠɪᴇ✽', 'minfo'),
+                    InlineKeyboardButton(f'❄ꜱᴇʀɪᴇꜱ❄', 'sinfo'),
+                    InlineKeyboardButton(f'✭ɪɴꜰᴏ✭', 'reqinfoo')
                 ]
             )
 
@@ -165,7 +165,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("🔮 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋ 🔮", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("❖ ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋ ❖", url=HOW_DWLD_LINK)
     ])
     try:
         await query.edit_message_reply_markup(
@@ -981,7 +981,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("🔮 ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋ 🔮", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("❖ ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ʟɪɴᴋ ❖", url=HOW_DWLD_LINK)
     ])
 
     if offset != "":
