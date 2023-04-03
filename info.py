@@ -51,7 +51,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001760292849))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001846871929))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+-ScCzxHPgVVlMzU1')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/YourDemandZone')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/YourDemandZone/95')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001657638670))
